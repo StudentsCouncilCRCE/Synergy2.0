@@ -11433,6 +11433,11 @@ textarea.form-control {
   
 }
 
+@media screen and (max-width:480px) {
+  .header{ background: url(/leadmark/public_html/assets/imgs/cropped\ 2.0.jpeg)}
+  
+}
+
 .header .overlay {
   position: absolute;
   left: 0;
@@ -11892,12 +11897,17 @@ img.bimg{
   will-change: transform;
  }
  
- .article:nth-child(5n+1){
-    background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia22474-2000.jpg?itok=cajl1lYH");
+ .article:nth-child(1){
+  background-image:url("/leadmark/public_html/assets/imgs/Synergy_poster_GDA\ \(1\).png");
+}
+
+
+ .article:nth-child(2){
+    background-image:url("/leadmark/public_html/assets/imgs/ASME_CRCE_Synergy\ 22\'_Poster.jpg");
  }
  
  .article:nth-child(5n+2){
-    background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/e0102_lg.jpg?itok=sd9lOayI");
+    background-image:url("/leadmark/public_html/assets/imgs/Synergy_poster_GDA\ \(1\).png");
  }
  .article:nth-child(5n+3){
   background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia19808.jpg?itok=rgxgamMM");
