@@ -2726,6 +2726,8 @@ textarea.form-control {
 
 .btn {
   display: inline-block;
+  margin-top: 20px;
+  border-radius: 20px;
   font-weight: 400;
   color: #444;
   text-align: center;
@@ -11064,6 +11066,8 @@ hr {
 
 .btn {
   font-size: 14px;
+  border-radius: 20px;
+  background-color: #f47472
 }
 
 .btn.btn-lg, .btn-group-lg > .btn {
@@ -11974,7 +11978,7 @@ img.bimg{
   transition:max-width 300ms ease-out; 
  }
  .article span.cat::before {
-  color:rgb(54, 176, 210);;
+  color: #f47472;
   transition-delay:100ms;
  }
  .article span.cat::after {
@@ -11991,8 +11995,9 @@ img.bimg{
  }
  .section-header{
    text-align: center;
-   color: rgb(54, 176, 210);;
-   padding-bottom:100px;
+   color: #f47472;
+   padding-bottom:50px;
+   padding-top: 50px;
    font-style: italic;
  }
  hr{
