@@ -11422,9 +11422,11 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  background: url(../landing.gif) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
+  opacity: 200%;
+  
 }
 
 .header .overlay {
@@ -11748,3 +11750,514 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
+.card-cell-thumbnail {
+  width: 100%;
+  height: auto;
+  
+}
+.card-cell-thumbnail img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Card Text Content */
+.card-cell-content {
+  padding: 30px 30px 0 30px;
+  flex-grow: 1;
+}
+.card-cell-text {
+width: 90%;
+margin: 0 auto;
+}
+.card-cell-text h2 {
+  margin: 0 auto 10px auto;
+  font: 600 24px 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+}
+.card-cell-text h3 {
+  margin: 0 auto 30px auto;
+  font: 600 16px 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+color: #3b4d64
+}
+
+/* Card Info */
+.card-cell-info-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-cell-info {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.card-cell-info:last-of-type{margin:0;}
+.card-cell-info h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'lato', Helvetica, Arial, Lucida, sans-serif;
+}
+.card-cell-info i {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #3b4d64;
+}
+
+/* Card Button */
+.card-cell-button {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.card-cell-button a {
+  font: 600 16px 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #3b4d64;
+}
+
+.flickity-viewport:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efe9e4+0,efe9e4+100&1+10,0+40,0+60,1+90 */background: -moz-linear-gradient(left,  rgba(255,235,205,1) 0%, rgba(255,235,205,1) 10%, rgba(255,235,205,0) 40%, rgba(255,235,205,0) 60%, rgba(255,235,205,1) 90%, rgba(255,235,205,1) 100%); /* FF3.6-15 */
+  background: -moz-linear-gradient(left,  rgba(255,235,205,1) 0%, rgba(255,235,205,1) 10%, rgba(255,235,205,0) 40%, rgba(255,235,205,0) 60%, rgba(255,235,205,1) 90%, rgba(255,235,205,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,235,205,1) 0%,rgba(255,235,205,1) 10%,rgba(255,235,205,0) 40%,rgba(255,235,205,0) 60%,rgba(255,235,205,1) 90%,rgba(255,235,205,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,235,205,1) 0%,rgba(255,235,205,1) 10%,rgba(255,235,205,0) 40%,rgba(255,235,205,0) 60%,rgba(255,235,205,1) 90%,rgba(255,235,205,1) 100%);
+
+  /* 
+  pointer-events: none;
+  /* z-index: 20; */
+}
+
+.flickity-prev-next-button.next {
+  right: 5vw !important;
+}
+.flickity-prev-next-button.previous {
+  left: 5vw !important
+}
+.flickity-button {
+  transition: filter 0.5s;
+}
+.flickity-button,
+.flickity-button:hover {
+  background: #3b4d64 !important;
+  color: #fff !important;
+}
+.flickity-button:hover .flickity-button-icon {
+  fill: white !important;
+}
+.flickity-button:hover {
+  filter: drop-shadow(0px 0px 30px rgba(255,78,0,0.5));
+}
+img.bimg{
+  height: 700px;
+  width: 700px;
+}
+.wrap{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  grid-gap:20px;
+  padding:0.5em;
+  perspective:500px;
+ }
+ .article {
+  display:flex;
+  flex-direction:column;
+  height:300px;
+  position:relative;
+  background-size:cover;
+  border-radius:7px;
+  overflow:hidden;
+  padding:1em;
+  cursor:pointer;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: all 0.2s linear ;
+  will-change: transform;
+ }
+ 
+ .article:nth-child(5n+1){
+    background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia22474-2000.jpg?itok=cajl1lYH");
+ }
+ 
+ .article:nth-child(5n+2){
+    background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/e0102_lg.jpg?itok=sd9lOayI");
+ }
+ .article:nth-child(5n+3){
+  background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/pia19808.jpg?itok=rgxgamMM");
+ }
+ 
+ .article:nth-child(5n+4){
+  background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/40808879360_18c96d62f1_o.jpg?itok=NttmTWPK");
+ }
+ .article:nth-child(5n+5){
+  background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/m18-090.jpg?itok=TQ8Fuk4x");
+ }
+ 
+ 
+ .overlay {
+  width:100%;
+  height:100%;
+  background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.3) 20%,rgba(0,0,0,0.4) 50%);
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:1;
+ }
+ .article h1{
+  font-size:1.5em;
+  font-family:'Oswald';
+  margin-top:auto;
+  cursor:pointer;
+  transition:all 0.3s;
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+ }
+ 
+ .article h1{
+  transform:translateY(-20px)
+ }
+ .article h1 span{
+  color:#fff;
+ }
+ 
+ .article span.cat {
+  letter-spacing:2px;
+  font-weight:bold;
+  font-family: 'Lato', sans-serif;
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  overflow:hidden;
+  color:#fff;
+ }
+ 
+ @media screen and (min-width:1000px){
+  .wrap{
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:65px;
+    padding:1em;
+  }
+  .article h1{
+    transform:translateY(0px);
+  }
+  .article:hover h1{
+  transform:translateY(-20px)
+  }
+  
+  .article span.cat {
+    color:transparent;
+  }
+  
+ .article span.cat::before,.article span.cat::after{
+  content:attr(data-hover);
+  position:absolute;
+  display:inline-block;
+  left:0;
+  top:0;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width:0%;
+  transition:max-width 300ms ease-out; 
+ }
+ .article span.cat::before {
+  color:rgb(54, 176, 210);;
+  transition-delay:100ms;
+ }
+ .article span.cat::after {
+  color:white;
+ }
+ 
+ .article:hover span.cat:after,.article:hover span.cat:before{
+  max-width:100%;
+ }
+ 
+ .article:hover span.cat:after {
+  transition-delay:300ms;
+ }
+ }
+ .section-header{
+   text-align: center;
+   color: rgb(54, 176, 210);;
+   padding-bottom:100px;
+   font-style: italic;
+ }
+ hr{
+   width: 50%;
+   margin: auto;
+ }
+ a{
+   text-decoration: none;
+ }
+ .but{
+   display: flex;
+   
+   justify-content: center;
+ }
+ @importcompass
+ 
+ @function multiple-box-shadow ($n) 
+   $value: '#{random(2000)}px #{random(2000)}px #FFF'
+   @for $i from 2 through $n
+     $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
+ 
+   @return unquote($value)
+ 
+ $shadows-small:  multiple-box-shadow(700)
+ $shadows-medium: multiple-box-shadow(200)
+ $shadows-big:    multiple-box-shadow(100)
+     
+ #stars
+   width: 1px
+   height: 1px
+   background: transparent
+   box-shadow: $shadows-small
+   animation     : animStar 50s linear infinite
+     
+   &:after
+     content: " "
+     position: absolute
+     top: 2000px
+     width: 1px
+     height: 1px
+     background: transparent
+     box-shadow: $shadows-small
+     
+ #stars2
+   width: 2px
+   height: 2px
+   background: transparent
+   box-shadow: $shadows-medium
+   animation     : animStar 100s linear infinite
+     
+   &:after
+     content: " "
+     position: absolute
+     top: 2000px
+     width: 2px
+     height: 2px
+     background: transparent
+     box-shadow: $shadows-medium
+     
+ #stars3
+   width: 3px
+   height: 3px
+   background: transparent
+   box-shadow: $shadows-big
+   animation     : animStar 150s linear infinite
+     
+   &:after
+     content: " "
+     position: absolute
+     top: 2000px
+     width: 3px
+     height: 3px
+     background: transparent
+     box-shadow: $shadows-big
+     
+ html
+   position: fixed
+   height: 100%
+   width: 100%
+   font-family: 'lato',sans-serif
+   color: #FFF
+   background: radial-gradient(ellipse at bottom, #0C1116 0%, #090a0f 100%)
+     
+ #horizon
+   position: absolute
+   width: 160%
+   height: 70%
+   border-radius: 100% / 100%
+   
+   background: #038bff
+   -webkit-filter: blur(30px)
+   
+   left: 50%
+   bottom: -20%
+   margin-left: -80%
+   
+   &:before
+     content: " "
+     position: absolute
+     width: 81.25%
+     height: 70%
+     border-radius: 100% / 100%
+ 
+     background: #51AFFF
+     -webkit-filter: blur(30px)
+     opacity: 0.6
+     
+     margin-left: 9.375%
+     
+   &:after
+     content: " "
+     position: absolute
+     width: 32%
+     height: 20%
+     border-radius: 650px / 350px
+ 
+     background: #B0DAFF
+     -webkit-filter: blur(30px)
+     opacity: 0.5
+     
+     margin-left: 34%
+     
+   .glow
+     position: absolute
+     width: 100%
+     height: 100%
+     border-radius: 100% / 100%
+ 
+     background: #215496
+     -webkit-filter: blur(200px)
+     opacity: 0.7
+     
+     top: -10%
+ 
+ #earth
+   position: absolute
+   width: 200%
+   height: 100%
+   background: black
+   border-radius: 100% / 100%
+   
+   left: 50%
+   bottom: -50%
+   margin-left: -100%
+   
+   &:before
+     content: " "
+     position: absolute
+     width: 100%
+     height: 100%
+     border-radius: 100% / 100%
+     
+     box-shadow: inset 0px 0px 62px 20px rgba(60,105,138,0.85)
+     
+   &:after
+     @include filter-gradient(#000000, #000000, horizontal)
+     @include background-image(linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 100%))
+     content: " "
+     position: absolute
+     width: 100%
+     height: 100%
+     border-radius: 100% / 100%
+     
+ #title
+   position: absolute
+   font-weight: 300
+   top: 36%
+   left: 0
+   right: 0
+   margin-top: -80px
+   
+   font-size: 130px
+   text-align: center
+   letter-spacing: 20px
+   padding-left: 20px
+   
+   background: -webkit-linear-gradient(white, rgb(219, 221, 224), #38495a)
+   -webkit-background-clip: text
+   -webkit-text-fill-color: transparent
+     
+   animation-duration: 6s
+   animation-iteration-count: infinite
+   animation-timing-function: ease
+   animation-name: animGravity
+     
+ #subtitle
+   position: absolute
+   font-weight: 300
+   top: 70%
+   left: 0
+   right: 0
+   
+   font-size: 25px
+   text-align: center
+   letter-spacing: 6px
+   
+   span
+     color: rgb(216, 216, 216)
+     animation-duration: 6s
+     animation-iteration-count: infinite
+     animation-timing-function: ease
+     
+     &:nth-child(1)
+       animation-name: animDont
+     
+     &:nth-child(2)
+       animation-name: animLet
+     
+     &:nth-child(3)
+       animation-name: animGo
+ 
+ 
+ @keyframes animStar
+   from  
+     transform: translateY(0px)
+   to    
+     transform: translateY(-2000px)
+ 
+ @keyframes animGravity
+   0%
+     transform: translateY(-26px)
+     opacity: 0
+   30%, 80%
+     letter-spacing: 40px
+     padding-left: 40px
+     transform: translateY( 0px )
+     opacity: 1
+   92%, 100%
+     letter-spacing: 35px
+     padding-left: 35px
+     transform: translateY( -4px )
+     opacity: 0
+     
+ @keyframes animDont
+   0%  , 15%
+     transform: translateY(-26px)
+     opacity: 0
+   35%, 80%
+     transform: translateY( 0px )
+     opacity: 1
+   92%, 100%
+     transform: translateY( -4px )
+     opacity: 0
+     
+ @keyframes animLet
+   0%  , 25%
+     transform: translateY(-26px)
+     opacity: 0
+   45%, 80%
+     transform: translateY( 0px )
+     opacity: 1
+   92%, 100%
+     transform: translateY( -4px )
+     opacity: 0
+ 
+ @keyframes animGo
+   0%  , 35%
+     transform: translateY(-26px)
+     opacity: 0
+   55%, 80%
+     transform: translateY( 0px )
+     opacity: 1
+   92%, 100%
+     transform: translateY( -4px )
+     opacity: 0
+ 
+ 
+ 
