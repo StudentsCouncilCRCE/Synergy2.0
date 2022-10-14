@@ -12470,7 +12470,7 @@ a {
 }
 
 .foot {
-  color: gold;
+  color: #f2f1c6;
   font-size: larger;
   text-transform: uppercase;
   letter-spacing: 0.5em;
@@ -12527,7 +12527,7 @@ a {
   }
 }
 .contact {
-  color: goldenrod;
+  color: #f2f1c6;
 
   text-align: center;
   background-color: rgb(0, 0, 0);
